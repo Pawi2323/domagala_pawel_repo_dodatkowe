@@ -1,0 +1,23 @@
+<html>
+	<head>
+	  <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		$(document).ready(function() {   //Włączenie funkcji
+			$("#klik").click(function () {  //Jeśli klik -> funkcja włącza sie
+				$('#pokaz').slideToggle('normal'); //div 'pokaz' wysuwa sie w dół
+			});
+		});
+		
+		$(document).ready(function(){
+			$("#pokaz").mouseenter(function(){ //Jeśli najedzie sie myszką
+				alert("sus ඞ");  //wyskakuje alert
+			});
+		});
+	</script>
+	 
+	</head>
+	<body>
+		<button><div id="klik">sus?</div></button>  <!-- div - klik -->
+		<div id="pokaz" style="display: none"><img src="impo.png"></div> <!-- div z obrazkiem -->
+	</body>
+</html>
