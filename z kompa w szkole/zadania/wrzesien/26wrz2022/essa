@@ -1,0 +1,7 @@
+const divs = $('.wymiar');
+
+  $(divs).eq(0).click(function(){
+    console.log(nClick);
+    nClick++;
+    $(divs).eq(0).text(nClick);
+  });

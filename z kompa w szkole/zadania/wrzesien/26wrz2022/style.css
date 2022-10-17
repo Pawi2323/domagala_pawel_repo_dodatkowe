@@ -1,0 +1,12 @@
+.imgmale{
+    height: 150px ;
+    width:150px;
+}
+#zdj1, #zdj2, #zdj3, #zdj4, #zdj5, #zdj6{
+    position: relative;
+}
+
+.imgduze{
+    height: 600px ;
+    width:600px;
+}

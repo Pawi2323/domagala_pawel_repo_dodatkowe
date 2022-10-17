@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>jQuery</title>
+    <meta content="">
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+      <header id="glowa">
+        essa
+      </header>
+      <aside id="lewo">
+
+      </aside>
+      <article id="artlist">
+        <ul id="list">
+          <li class="witcher">Królestwa Północy</li>
+          <li class="witcher">Scoia'tael</li>
+          <li class="witcher">Cesarstwo Nilfgaardu</li>
+          <li class="witcher">Skellige</li>
+        </ul> 
+      </article>
+      <footer id="stopa">
+        essa
+      </footer>
+
+      <script src="lib/jquery-3.6.1.js" type="text/javascript"></script>
+      <script src="myscript.js"></script>
+  </body>
+</html>
