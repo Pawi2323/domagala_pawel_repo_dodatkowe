@@ -1,0 +1,44 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    color: white;
+}
+header{
+    height:10%;
+    width:100%;
+    background-color: #72a146;
+}
+article{
+    height: 65%;
+    width:100%;
+    background-color: #4d7a33;
+    float:left ;
+    color: white;
+}
+aside{
+    height:10%;
+    width:100%;
+    background-color: #5f8e3c;
+    float:right ;
+    color: white;
+}
+footer{
+    height:15%;
+    width:100%;
+    background-color: #2e5921;
+    clear:both;
+}
+h1{
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.btn{
+    border: 0px;
+    background: none;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    color: white;
+}
